@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(45deg, black, #0A0723);
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    margin-left: 1%;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    width: 46%;
+    color: whitesmoke;
+}
+
+img {
+    width: 30%;
+    margin: 1%;
+}
