@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
 }
@@ -39,4 +43,60 @@ button {
     background-color: black;
     border-radius: 6px;
     border: 2px solid whitesmoke;
+}
+
+@media (max-width:500px) {
+    img {
+        display: block;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    a,
+    p {
+        font-size: 1.2em;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media (min-width:501px) {
+    img {
+        display: block;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    a,
+    p {
+        font-size: 1.2em;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media(min-width:800px) {
+    img {
+        display: block;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    a,
+    p {
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
